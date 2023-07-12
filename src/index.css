@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card-color{
+  background: #4776E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #8E54E9, #4D37F5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #8E54E9,#4D37F5 ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+}
+.font-text{
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+@media screen and (max-width: 600px){
+  .container-card {
+    display: flex;
+    flex-direction: column;
+   
+
+  }
+  .first-card{
+    position: relative;
+    top: 16.5px;
+    left: 8px;
+    height: 300px;
+     width: 300px;
+  }
+  .circle{
+    width: 120px;
+    height: 120px;
+    margin-bottom: 0;
+  }
+  .score{
+    font-size: 34px;
+    padding-top: 19px;
+  }
+  .second-card{
+    background: #fbf8f8;
+    width: 300px;
+   right: 0;
+    border-radius:0px 0px 18px 18px ;
+    height: 350px;
+    padding-top: 3px;
+    padding-bottom: 0;
+    padding-left: 26px;
+  }
+  .title{
+    margin-top: 25px;
+  }
+  .cards-map{
+    height: 35px;
+    
+  }
+}
